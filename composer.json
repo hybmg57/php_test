@@ -1,0 +1,18 @@
+{
+    "name": "Jae/php_test",
+    "description": "Testing composer",
+    "require": {
+        "silex/silex": "*"
+    },
+    "require-dev": {
+        "codeception/codeception": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jae Choi",
+            "email": "jaekun.choi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
