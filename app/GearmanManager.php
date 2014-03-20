@@ -14,6 +14,6 @@ class GearmanManager {
     private $password;
 
     public function __construct(){
-            
+
     }
 } 
