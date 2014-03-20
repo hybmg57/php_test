@@ -35,7 +35,7 @@
       <file leaf-file-name="GearmanManager.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/GearmanManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="217" selection-end="217" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="550">
+            <state line="16" column="12" selection-start="221" selection-end="221" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="550">
               <folding />
             </state>
           </provider>
@@ -342,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/GearmanManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="217" selection-end="217" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="550">
+        <state line="16" column="12" selection-start="221" selection-end="221" vertical-scroll-proportion="0.34" vertical-offset="0" max-vertical-offset="550">
           <folding />
         </state>
       </provider>
