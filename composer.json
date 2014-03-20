@@ -1,0 +1,32 @@
+{
+    "name": "hybmg57/php_test",
+    "description": "This repo is to test PHP components",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jae Choi",
+            "email": "jaekun.choi@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.1",
+        "doctrine/dbal": "*",
+        "monolog/monolog": ">=1.0.0",
+        "symfony/serializer": "~2.3",
+        "symfony/validator": "~2.3",
+        "symfony/security": "~2.3",
+        "jdesrosiers/silex-swagger-provider": "dev-master",
+        "jdesrosiers/silex-cors-provider": "dev-master",
+        "predis/service-provider": "dev-master",
+        "mustache/silex-provider": "dev-master",
+        "swiftmailer/swiftmailer": ">=4.1.2,<4.2-dev",
+        "mcuadros/silex-newrelic": "dev-master"
+    },
+    "require-dev": {
+        "symfony/browser-kit": ">=2.3,<2.4-dev",
+        "phpunit/phpunit": "3.7.*",
+        "symfony/css-selector": "~2.3",
+        "phpdocumentor/phpdocumentor": "v2.2.0"
+    }
+}
