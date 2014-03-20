@@ -12,5 +12,8 @@ namespace Jae;
 class GearmanManager {
     private $username;
     private $password;
-    
+
+    public function __construct(){
+        
+    }
 } 
