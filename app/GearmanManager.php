@@ -10,5 +10,7 @@ namespace Jae;
 
 
 class GearmanManager {
-
+    private $username;
+    private $password;
+    
 } 
