@@ -23,4 +23,17 @@ class GearmanScheduler extends Gearman{
     public function start(){
         return $this->schedule();
     }
+
+    public function testing1($param1, $param2){
+        echo $param1;
+        echo $param2->hello();
+    }
+
+    public function testing2($param){
+        echo $param;
+    }
+
+    public function testing3($param){
+        echo $param;
+    }
 }

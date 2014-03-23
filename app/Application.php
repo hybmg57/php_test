@@ -25,7 +25,12 @@ class Application implements ApplicationInterface{
     }
 
     public static function build(Gearman $gearman_instance){
-        echo $gearman_instance->start();
+        return $gearman_instance->start();
+    }
+
+    public static function call_funcs(Gearman &$gearman_obj, $functions, array $params){
+        foreach($functions as $func_name)
+            call_user_func_array(array($gearman_obj, $func_name), $params);
     }
 }
 
@@ -33,4 +38,6 @@ $gearman_manager = new GearmanManager('Jae', 'kappa');
 $gearman_sceduler = new GearmanScheduler('Awesome scheduler');
 //Application::build($gearman_manager);
 Application::build($gearman_sceduler);
+
+Application::call_funcs($gearman_sceduler, array('testing1', 'testing2', 'testing3'), array('test1', $gearman_manager, 'test3'));
 ?>
