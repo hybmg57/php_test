@@ -25,11 +25,12 @@ class Application implements ApplicationInterface{
     }
 
     public static function build(Gearman $gearman_instance){
-        echo $gearman_instance->hello();
-        echo "test";
+        echo $gearman_instance->start();
     }
 }
 
 $gearman_manager = new GearmanManager('Jae', 'kappa');
-Application::build($gearman_manager);
+$gearman_sceduler = new GearmanScheduler('Awesome scheduler');
+//Application::build($gearman_manager);
+Application::build($gearman_sceduler);
 ?>

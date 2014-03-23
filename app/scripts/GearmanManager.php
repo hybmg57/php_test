@@ -22,6 +22,10 @@ class GearmanManager extends Gearman implements GearmanInterface{
     }
 
     public function hello(){
-        echo "Hello, \n your username is: " . $this->username . " \n your password is: ". $this->password;
+        return " Hello, \n your username is: " . $this->username . " \n your password is: ". $this->password;
+    }
+
+    public function start(){
+        return $this->hello();
     }
 } 

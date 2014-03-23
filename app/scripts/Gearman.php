@@ -9,6 +9,6 @@
 namespace Jae;
 
 
-class Gearman {
-
+abstract class Gearman {
+    abstract public function start();
 } 
