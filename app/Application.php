@@ -39,5 +39,5 @@ $gearman_sceduler = new GearmanScheduler('Awesome scheduler');
 //Application::build($gearman_manager);
 Application::build($gearman_sceduler);
 
-Application::call_funcs($gearman_sceduler, array('testing1', 'testing2', 'testing3'), array('test1', $gearman_manager, 'test3'));
+Application::call_funcs($gearman_sceduler, ['testing1', 'testing2', 'testing3'], ['test1', $gearman_manager, 'test3']);
 ?>
